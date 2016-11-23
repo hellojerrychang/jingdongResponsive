@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<title>京东女装</title>
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheet/style.css" />
+	</head>
+
+	<body>
+		<header>
+			<div class="container-fluid p0">
+				<form>
+					<div class="row">
+						<div class="back col-xs-2 text-center"><i class="fa fa-chevron-left"></i></div>
+						<div class="form-group col-xs-8 search">
+
+							<input type="text" class="form-control" placeholder="女装">
+						</div>
+						<div class="menu col-xs-2"><i class="fa fa-align-left"></i></div>
+					</div>
+				</form>
+			</div>
+			<ul class="nav hide">
+				<li class="col-xs-3 text-center">
+					<a href="#"><i class="fa fa-home"></i><span>首页</span></a>
+				</li>
+				<li class="col-xs-3 text-center">
+					<a href="#"><i class="fa fa-search"></i><span>分类搜索</span></a>
+				</li>
+				<li class="col-xs-3 text-center">
+					<a href="#"><i class="fa fa-shopping-cart"></i><span>购物车</span></a>
+				</li>
+				<li class="col-xs-3 text-center">
+					<a href="#"><i class="fa fa-user"></i><span>我的京东</span></a>
+				</li>
+			</ul>
+		</header>
+		<div class="container p0">
+			<ul class="product-list">
+			</ul>
+		</div>
+		<div class="loading hide"><i class="fa fa-spinner fa-spin"></i></div>
+		<div class="back-top hide"><i class="fa fa-chevron-up"></i></div>
+		<script src="bower_components/zepto/zepto.js"></script>
+		<script src="javascript/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
