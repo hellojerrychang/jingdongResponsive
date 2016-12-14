@@ -29,7 +29,7 @@ $(function() {
 	function loadData($ele, num) {
 		$('.loading').removeClass('hide');
 		$.ajax({
-			url: 'json_data/data-' + num + '.json',
+			url: 'https://github.com/hellojerrychang/jingdongResponsive/blob/master/demo/json_data/data-' + num + '.json',
 			success: function(data) {
 				//console.log(data)
 				var str = '';
